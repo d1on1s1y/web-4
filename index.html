@@ -20,25 +20,25 @@
       <span id="closeReg" class="close-button">&times;</span>
       <form class="registration-form">
         <label for="email">Електронна пошта</label>
-        <input type="email" id="email" name="email" required />
+        <input type="email" id="email" Reg name="email" required />
 
         <label for="password">Пароль</label>
-        <input type="password" id="password" name="password" required />
+        <input type="password" id="password" Reg name="password" required />
 
         <label for="lastName">Прізвище</label>
-        <input type="text" id="lastName" name="lastName" required />
+        <input type="text" id="lastName" Reg name="lastName" required />
 
         <label for="firstName">Ім’я</label>
-        <input type="text" id="firstName" name="firstName" required />
+        <input type="text" id="firstName" Reg name="firstName" required />
 
         <label for="middleName">По батькові</label>
-        <input type="text" id="middleName" name="middleName" />
+        <input type="text" id="middleName" Reg name="middleName" />
 
         <label for="birthDate">Дата народження</label>
-        <input type="date" id="birthDate" name="birthDate" required />
+        <input type="date" id="birthDate" Reg name="birthDate" required />
 
         <label for="group">Виберіть групу</label>
-        <select id="group" name="group" required>
+        <select id="group" Reg name="group" required>
           <option value="client">Клієнт</option>
           <option value="employee">Працівник</option>
           <option value="manager">Менеджер</option>
@@ -47,7 +47,7 @@
         <label for="file">Завантажте файл (PDF)</label>
         <input
           type="file"
-          id="file"
+          id="fileReg"
           name="file"
           accept="application/pdf"
           required
@@ -60,10 +60,10 @@
       <form class="registration-form">
         <span id="closeSignIn" class="close-button">&times;</span>
         <label for="email">Електронна пошта</label>
-        <input type="email" id="email" name="email" required />
+        <input type="email" id="emailSignIn" name="email" required />
 
         <label for="password">Пароль</label>
-        <input type="password" id="password" name="password" required />
+        <input type="password" id="passwordSignIn" name="password" required />
 
         <button type="submit">Увійти</button>
       </form>

@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="/styles.css" />
     <link rel="stylesheet" href="/modal.css" />
+    <link rel="stylesheet" href="/table.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -88,20 +89,45 @@
         <li><button id="openSignIn" class="header-btn">Авторизація</button></li>
       </ul>
     </header>
-    <div class="faq-container">
-      <h2>Часті запитання</h2>
-      <div class="faq-item">
-        <h3>Як замовити препарати?</h3>
-        <p>
-          Ви можете зробити замовлення онлайн через нашу CRM-систему або
-          зателефонувавши за номером.
-        </p>
-      </div>
-      <div class="faq-item">
-        <h3>Чи є у вас програма лояльності?</h3>
-        <p>
-          Так, ми пропонуємо програму лояльності для корпоративних клієнтів.
-        </p>
+
+    <div class="container">
+      <h1>Список товарів</h1>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>№</th>
+              <th>Назва</th>
+              <th>Ціна (ГРН/т)</th>
+              <th>Кількість (т)</th>
+              <th>Дії</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Активоване вугілля</td>
+              <td>10 000</td>
+              <td>88</td>
+              <td>
+                <button>Перегляд</button>
+                <button>Редагування</button>
+                <button>Видалити</button>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Ібупрофен</td>
+              <td>50 000</td>
+              <td>14</td>
+              <td>
+                <button>Перегляд</button>
+                <button>Редагування</button>
+                <button>Видалити</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
     <script type="module" src="/main.js"></script>
